@@ -400,3 +400,4 @@ FodyWeavers.xsd
 *.sln.iml
 riderModule.iml
 /_ReSharper.Caches/
+.idea/
