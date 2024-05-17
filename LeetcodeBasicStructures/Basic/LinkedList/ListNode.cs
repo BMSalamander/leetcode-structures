@@ -15,9 +15,9 @@ public class ListNode
     /// Prints single-linked list and flushes the stream after writing
     /// </summary>
     /// <param name="stream">Stream for writing to (defaults to Console.Out)</param>
-    public void Print(TextWriter? stream = null)
+    public void Print(TextWriter? textWriter = null)
     {
-        var writer = stream ?? Console.Out;
+        var writer = textWriter ?? Console.Out;
         writer.Write('[');
         var current = this;
         while (current.next is not null)
